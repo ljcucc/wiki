@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>hugo templating</title>
+
+	<link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+	
+	
+	<link rel="stylesheet" href="/css/style.css">
+	
+</head>
+<body>
+	<header>
+	<a href="http://wiki.ljcu.cc/">(www)iki</a>
+	
+</header>
+
+	
+	<main>
+		<article>
+      
+
+			<div class="nav">
+				<div style="max">
+					<h1>  Hugo 模板網頁生成術 </h1>
+					 hugo templating 
+					
+				</div>
+				<div>
+					
+				</div>
+			</div>
+
+
+			<div class="content-layout">
+				<div class="contents">
+					
+					<div class="article-body">
+						<h2 id="開始">開始</h2>
+<h3 id="0-安裝使用-與-資源">0. 安裝、使用 與 資源</h3>
+<p>您可以從 <a href="https://gohugo.com">Hugo 官方網站</a> 找到安裝方式和相關資源。</p>
+<p>使用 <code>hugo serve -D</code> 執行伺服器，使用 <code>hugo</code> 生成網頁。</p>
+<h3 id="1-網站架構">1. 網站架構</h3>
+<p>一個 Hugo 專案擁有固定架構，而作為模板生成網站的 Hugo，我們可以把其視為一函式：</p>
+<p>template(data)=output</p>
+<p>其中個別的資料夾為：</p>
+<ul>
+<li>template: /layouts /themes /static /assets /resources</li>
+<li>data: /data /content</li>
+<li>output: /public</li>
+</ul>
+<p>作為 hugo 的基礎模板，以基礎元素構成，您可以參考 <a href="https://github.com/Vimux/Blank">Blank 模板</a>。</p>
+<h3 id="2-撰文">2. 撰文</h3>
+<p>針對大多數 blog 模板（<a href="https://github.com/Vimux/Blank">Blank 模板</a> ），內容預設會被放置在 /content/posts 中，格式大致如下：</p>
+<pre tabindex="0"><code>[meta-data]
+[markdown content]
+</code></pre><p>其中 [meta-data] 可以是 json、yaml、toml，他們的格式分別為, yaml 和 toml 上下分別要用 &mdash; 和 +++ 區分，json則無。title屬性是 hugo content 的保留字。</p>
+<h3 id="3-專案配置">3. 專案配置</h3>
+<p>hugo 的專案會有一個用來辨別專案的配置文件。專案配置和 metadata 一樣共有 3 種格式: <code>config.[ext]</code>。</p>
+<h3 id="4-模板-與-主題">4. 模板 與 主題</h3>
+<p>主題會安裝於 /themes ，而專案的模板則可直接置於 /layouts。Hugo 模板的尋訪規則會先從 /layouts &gt; /themes/[name]/layouts。</p>
+<p>欲修改模板，可根據 Hugo 的根模板位於 /layouts/_default/baseof.html，您可以依照您的需求進行修改。</p>
+<h3 id="5-基礎語法">5. 基礎語法</h3>
+<p>Hugo template 是基於原生的 <a href="https://pkg.go.dev/text/template">Go template</a>，而 Hugo 則在其之上進行擴充。</p>
+
+					</div>
+				</div>
+			</div>
+
+
+			
+			
+		</article>
+
+	</main>
+
+  
+
+  <div style="margin-bottom: 5rem;"></div>
+	<footer>
+	<p>
+	// (<a href="/indexing">index</a>)
+	</p>
+	<p>
+		&copy; 2023 <a href="http://wiki.ljcu.cc/">(www)iki</a> by <a href="https://ljcu.cc">ljcucc</a> 
+	</p> 
+</footer>
+
+</body>
+</html>

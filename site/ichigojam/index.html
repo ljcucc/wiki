@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>ichigojam (dev board)</title>
+
+	<link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+	
+	
+	<link rel="stylesheet" href="/css/style.css">
+	
+</head>
+<body>
+	<header>
+	<a href="http://wiki.ljcu.cc/">(www)iki</a>
+	
+</header>
+
+	
+	<main>
+		<article>
+      
+
+			<div class="nav">
+				<div style="max">
+					<h1>  15jam - 草莓醬 </h1>
+					 ichigojam (dev board) 
+					
+				</div>
+				<div>
+					
+				</div>
+			</div>
+
+
+			<div class="content-layout">
+				<div class="contents">
+					
+					<div class="article-body">
+						<h3 id="神奇草莓果醬一台日本製的小電腦資源不多但它傳神地還原了commondore-64的精神是難得一見的活化石">神奇草莓果醬！一台日本製的小電腦，資源不多但它傳神地還原了Commondore 64的精神。是難得一見的「活化石」。</h3>
+<hr>
+<p>基於MCU的小電腦，bootloader、ROM 全部寫入在MCU的Flash memory中。</p>
+<p>雖然ichigojam出了好幾種款式，單是他們的核心MCU基本上分為兩種：LPC1114 和 RISC-V 。在選擇買板子時建議買RISC-V的版本（只內銷日本）。記憶體大、速度快、價格還一樣，而且支援 USB 鍵盤。</p>
+<h3 id="1-ichigojam-basic">1. Ichigojam BASIC</h3>
+<p>Ichigojam BASIC 是 Ichigojam 的同生子弟，Ichigojam 為此而生。也是目前 Ichigojam Board 上完成度最高的作業環境。也有 可以寫 Python 和 JS 的 IchigoLatte，但因為完成度不高這裡不多介紹。以下是一個可以自由切換 JP 鍵盤 和 US 鍵盤 的 BASIC 程式：</p>
+<pre tabindex="0"><code>1 &#39;EXCHG KBD JP-US
+2 IF USR(#D00)=#F00 ?&#34;US KEYBOARD&#34; ELSE ?&#34;JP KEYBOARD&#34;
+3 NEW
+</code></pre><h3 id="2-應用-與-靈活性">2. 應用 與 靈活性</h3>
+<p>「這台電腦它可以做很多事情⋯⋯如果我接上 EEPROM 我可以像磁帶一樣把檔案和程式儲存在IC裡，如果我接上有AT command 的 ESP-01 我就可以通過 TCP 利用 IRC 在網路上聊天、連結伺服器，如果我用 USB module 我就可以存取 USB 裡的圖片和資料。」 &ndash; <a href="https://blog.ljcu.cc/posts/ic-forest-01/">blog → Ichigojam - 集成晶體森林 裡的 活化石 (1)</a></p>
+<h3 id="3-資源連結">3. 資源連結</h3>
+<ul>
+<li>Ichigojam 官方網站： <a href="https://ichigojam.net">https://ichigojam.net</a></li>
+<li>IchigoJam Recipe (IchigoJam Information Site) : <a href="https://15jamrecipe.jimdofree.com/">https://15jamrecipe.jimdofree.com/</a> （目前找到統整資源最完整的網站）</li>
+<li>Ichigojam BASIC reference (en)： <a href="https://ichigojam.net/IchigoJam-en.html">https://ichigojam.net/IchigoJam-en.html</a></li>
+</ul>
+
+					</div>
+				</div>
+			</div>
+
+
+			
+			
+		</article>
+
+	</main>
+
+  
+
+  <div style="margin-bottom: 5rem;"></div>
+	<footer>
+	<p>
+	// (<a href="/indexing">index</a>)
+	</p>
+	<p>
+		&copy; 2023 <a href="http://wiki.ljcu.cc/">(www)iki</a> by <a href="https://ljcu.cc">ljcucc</a> 
+	</p> 
+</footer>
+
+</body>
+</html>

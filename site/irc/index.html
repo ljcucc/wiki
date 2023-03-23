@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>IRC</title>
+
+	<link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+	
+	
+	<link rel="stylesheet" href="/css/style.css">
+	
+</head>
+<body>
+	<header>
+	<a href="http://wiki.ljcu.cc/">(www)iki</a>
+	
+</header>
+
+	
+	<main>
+		<article>
+      
+
+			<div class="nav">
+				<div style="max">
+					<h1>  網路中繼聊天 </h1>
+					 IRC 
+					
+				</div>
+				<div>
+					
+				</div>
+			</div>
+
+
+			<div class="content-layout">
+				<div class="contents">
+					
+					<div class="article-body">
+						<p>IRC 是許多老一輩電腦使用者的回憶，通過簡單的TCP連線、通過IRC協議把伺服器當中間人來傳遞訊息。是 Discord 的前輩。IRC 的許多元素至今都還留存在許多軟體設計的方式和理念，對於當代聊天軟體的影響不容小覷。</p>
+<p>簡單的設計、卻實作了現今重要的聊天功能是 IRC 最有魅力的地方。</p>
+<h2 id="開始">開始</h2>
+<p>開始使用 IRC 很簡單，首選你必須安裝一個客戶端，例如 CLI 的 issri 或 weechat，或者擁有GUI界面的 HexChat 等等。因為歷史悠久你已經可以在每個平台上找到 IRC 的蹤跡，也因為協議簡單，你甚至可以直接用 netcat 或 telnet 來與 IRC 伺服器連線。</p>
+<p>這裡以 Weechat 為例，每個軟體的指令操作方式可能略有不同。</p>
+<ol>
+<li>在列表新增伺服器</li>
+</ol>
+<pre tabindex="0"><code>/server add [server-name] [server-address]/[port] [(optional) -ssl]
+</code></pre><ol start="2">
+<li>設定使用者名稱、全名</li>
+</ol>
+<pre tabindex="0"><code>/set irc.server.libera.username &#34;My user name&#34;
+/set irc.server.libera.realname &#34;My real name&#34;
+</code></pre><ol start="3">
+<li>設定自動登入</li>
+</ol>
+<pre tabindex="0"><code>/set irc.server.libera.command &#34;/msg nickserv identify xxxxxxx&#34;
+</code></pre><ol start="4">
+<li>開始連線</li>
+</ol>
+<pre tabindex="0"><code>/connect [server-name]
+</code></pre><ol start="5">
+<li>取消連線</li>
+</ol>
+<pre tabindex="0"><code>/disconnect
+</code></pre><h3 id="登入與註冊伺服器">登入與註冊伺服器</h3>
+<p>在剛進入一個伺服器時，和社群網站一樣你必須登入或註冊。</p>
+<ol>
+<li>登入</li>
+</ol>
+<pre tabindex="0"><code>/msg NickServ identify [your-nick-name] [password]
+</code></pre><ol start="2">
+<li>註冊</li>
+</ol>
+<pre tabindex="0"><code>/nick [your-nick]
+/msg NickServ register [your-password] [email]
+</code></pre><h3 id="使用伺服器">使用伺服器</h3>
+<p>IRC 的使用概念 和 discord 的概念極其類似</p>
+<ol>
+<li>加入頻道（）</li>
+</ol>
+<pre tabindex="0"><code>/join #channel
+</code></pre><ol start="2">
+<li>直接 私訊 一個人</li>
+</ol>
+<pre tabindex="0"><code>/query Nickname
+</code></pre><h3 id="範例">範例</h3>
+<p>使用 IRC 實際登入目前僅存的 IRC server - LibreChat 大致如下：</p>
+<pre tabindex="0"><code>/server add libera-ssl irc.libera.chat/6697 -ssl
+/set irc.server.libera.username &#34;testuser-8787&#34;
+/set irc.server.libera.realname &#34;Test User HelloWorld&#34;
+
+/connect librea-ssl
+
+/nick testuser-8787
+/msg NickServ register testpassword-do-not-use no@thank.you
+
+... (跟隨官方的驗證方式 登入後)
+
+/join #puppylinux
+
+(#channel 為官方討論群， ##channel 為非正式討論群)
+
+/query soemone-close-you
+
+/disconnect
+
+(離開伺服器)
+</code></pre>
+					</div>
+				</div>
+			</div>
+
+
+			
+			
+		</article>
+
+	</main>
+
+  
+
+  <div style="margin-bottom: 5rem;"></div>
+	<footer>
+	<p>
+	// (<a href="/indexing">index</a>)
+	</p>
+	<p>
+		&copy; 2023 <a href="http://wiki.ljcu.cc/">(www)iki</a> by <a href="https://ljcu.cc">ljcucc</a> 
+	</p> 
+</footer>
+
+</body>
+</html>

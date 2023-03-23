@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sites on (www)iki</title>
+    <link>http://wiki.ljcu.cc/site/</link>
+    <description>Recent content in Sites on (www)iki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://wiki.ljcu.cc/site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(topic) 知識浪潮</title>
+      <link>http://wiki.ljcu.cc/site/topic-abstract-description/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.ljcu.cc/site/topic-abstract-description/</guid>
+      <description>「小說家用萬字創造一劇史詩，工程師用萬碼打造一座城市。」 從 Linus Torvalds 創造 Linux 至今， Linux kernel 已經累積 27.8 百萬行程式碼，而 許多 嵌入式系統設備、Android、大到 超級電腦，小到個人電腦依然都運行在 Linux kenrel 所支援的世界，近代與未來「程式碼」勢必將成為人類重要的資產。這也是為什麼 Github 在 2019 年開始便啟動了 「Arctic Code Vault Program」，已經將 Github 上 21TB 的常用程式碼儲存至冰島的廢棄礦坑中，以避免未來災難或戰爭造成程式碼的遺失。
+程式碼是一種陳述，明確的告訴電腦該執行什麼。具體來說程式碼是一種高階、抽象的表現，藉由編譯器等軟體或行為使程式從抽象轉為具體的「指令」，再交由目標機器執行，例如 intel 的 CPU 或一個 虛擬機 等等⋯⋯。陳述與敘述不僅可以表達訊息，更可以憑空用來創造出一個既真實又虛幻的世界，或者在一個簡單的機構上建構一個複雜的電腦系統。這不僅只是虧於人腦的想像力，而是在現有的知識上創造未來。
+1. 抽象表現 純文字的格式不拘，是文學的孕育之地，也是眾所熟悉的使用語言。一旦我們從句子中拿出具象元素，就可能使句子抽象。
+蝴蝶被雨滴打到從樹葉上掉落 → 生命萬物的生與死。 小狗舔著主人的臉，尾巴歡快地搖晃著。→ 友誼是一種無價的寶藏。 透過抽象的表達方式，可以更深入地探討主題。
+2. 更為精準的描述 Formal language - 抽象且精準的表達方式，是科學與工程的萬用符號。 知識庫 - 知識庫不只蘊含精準的表述，更是用嚴謹的方式紀錄和定義事物。 最後更新日期：2023-03-20</description>
+    </item>
+    
+    <item>
+      <title>computers</title>
+      <link>http://wiki.ljcu.cc/site/computer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.ljcu.cc/site/computer/</guid>
+      <description>計算機是電腦嚴謹的稱呼，因為電腦大多數行為都透過「計算」達成。
+1. 主力機 雖然目前 mac 仍然是我的主力機，但預計要準備轉移系統到 Linux 中。
+2. (raspberry pi) 是我很敬佩的一台 SBC （單板電腦）。它可以把一台電腦的功能壓縮在一個有限的體積和功耗之內，無疑是人類科技的結晶。(如上圖)
+3. (ichigojam) 是一台日本製的小電腦，資源不多但它傳神地還原了Commondore 64的精神。是難得一見的「活化石」。
+4. (micro-bit) 一塊 BBC 所推出的小型 MCU 開發板。內建電池盒接口、Bluetooth、溫度、光線感測、陀螺儀、加速度 和 一塊5*5 的螢幕與2個按鈕。麻雀雖小五臟俱全。</description>
+    </item>
+    
+    <item>
+      <title>fur-philosophy</title>
+      <link>http://wiki.ljcu.cc/site/furry-philosophy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.ljcu.cc/site/furry-philosophy/</guid>
+      <description>「有人的地方就有哲學，有獸的地方就有獸哲學。」
+問：獸控該為他們所屬的物種發聲嗎？ // 文章撰寫中
+Therian - 可以「身而為獸」嗎？ // 文章撰寫中</description>
+    </item>
+    
+    <item>
+      <title>furry</title>
+      <link>http://wiki.ljcu.cc/site/furry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.ljcu.cc/site/furry/</guid>
+      <description>「Awoooooooo, Awoo Awoo, Awooooo, Rraaw, Bark, Bark.」 fursona 中譯「獸設」，是對於自身獸迷角色的定義。在獸圈幾乎每個人都會有一個獸設，有時設定不明確，有時則會用 Reference Sheet 呈現（有如 Style Guidline）。
+我的 fursona 是一隻狼（之前是加拿大狼，現在則是北極狼），名「 IT 狼」。IT 狼專業 IT，和我的專業重疊。
+獸控 是 furry 的別名。我會迴避使用「獸控」一詞，因為 控 在日文裡是一種「癖好」的象徵，就好像在說「獸控」是一種次文化、性癖、怪癖。</description>
+    </item>
+    
+    <item>
+      <title>furry fandom</title>
+      <link>http://wiki.ljcu.cc/site/furry-fandom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.ljcu.cc/site/furry-fandom/</guid>
+      <description>// 文章撰寫中</description>
+    </item>
+    
+    <item>
+      <title>hugo templating</title>
+      <link>http://wiki.ljcu.cc/site/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.ljcu.cc/site/hugo/</guid>
+      <description>開始 0. 安裝、使用 與 資源 您可以從 Hugo 官方網站 找到安裝方式和相關資源。
+使用 hugo serve -D 執行伺服器，使用 hugo 生成網頁。
+1. 網站架構 一個 Hugo 專案擁有固定架構，而作為模板生成網站的 Hugo，我們可以把其視為一函式：
+template(data)=output
+其中個別的資料夾為：
+template: /layouts /themes /static /assets /resources data: /data /content output: /public 作為 hugo 的基礎模板，以基礎元素構成，您可以參考 Blank 模板。
+2. 撰文 針對大多數 blog 模板（Blank 模板 ），內容預設會被放置在 /content/posts 中，格式大致如下：
+[meta-data] [markdown content] 其中 [meta-data] 可以是 json、yaml、toml，他們的格式分別為, yaml 和 toml 上下分別要用 &amp;mdash; 和 +++ 區分，json則無。title屬性是 hugo content 的保留字。
+3. 專案配置 hugo 的專案會有一個用來辨別專案的配置文件。專案配置和 metadata 一樣共有 3 種格式: config.</description>
+    </item>
+    
+    <item>
+      <title>ichigojam (dev board)</title>
+      <link>http://wiki.ljcu.cc/site/ichigojam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.ljcu.cc/site/ichigojam/</guid>
+      <description>神奇草莓果醬！一台日本製的小電腦，資源不多但它傳神地還原了Commondore 64的精神。是難得一見的「活化石」。 基於MCU的小電腦，bootloader、ROM 全部寫入在MCU的Flash memory中。
+雖然ichigojam出了好幾種款式，單是他們的核心MCU基本上分為兩種：LPC1114 和 RISC-V 。在選擇買板子時建議買RISC-V的版本（只內銷日本）。記憶體大、速度快、價格還一樣，而且支援 USB 鍵盤。
+1. Ichigojam BASIC Ichigojam BASIC 是 Ichigojam 的同生子弟，Ichigojam 為此而生。也是目前 Ichigojam Board 上完成度最高的作業環境。也有 可以寫 Python 和 JS 的 IchigoLatte，但因為完成度不高這裡不多介紹。以下是一個可以自由切換 JP 鍵盤 和 US 鍵盤 的 BASIC 程式：
+1 &amp;#39;EXCHG KBD JP-US 2 IF USR(#D00)=#F00 ?&amp;#34;US KEYBOARD&amp;#34; ELSE ?&amp;#34;JP KEYBOARD&amp;#34; 3 NEW 2. 應用 與 靈活性 「這台電腦它可以做很多事情⋯⋯如果我接上 EEPROM 我可以像磁帶一樣把檔案和程式儲存在IC裡，如果我接上有AT command 的 ESP-01 我就可以通過 TCP 利用 IRC 在網路上聊天、連結伺服器，如果我用 USB module 我就可以存取 USB 裡的圖片和資料。」 &amp;ndash; blog → Ichigojam - 集成晶體森林 裡的 活化石 (1)</description>
+    </item>
+    
+    <item>
+      <title>IRC</title>
+      <link>http://wiki.ljcu.cc/site/irc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.ljcu.cc/site/irc/</guid>
+      <description>IRC 是許多老一輩電腦使用者的回憶，通過簡單的TCP連線、通過IRC協議把伺服器當中間人來傳遞訊息。是 Discord 的前輩。IRC 的許多元素至今都還留存在許多軟體設計的方式和理念，對於當代聊天軟體的影響不容小覷。
+簡單的設計、卻實作了現今重要的聊天功能是 IRC 最有魅力的地方。
+開始 開始使用 IRC 很簡單，首選你必須安裝一個客戶端，例如 CLI 的 issri 或 weechat，或者擁有GUI界面的 HexChat 等等。因為歷史悠久你已經可以在每個平台上找到 IRC 的蹤跡，也因為協議簡單，你甚至可以直接用 netcat 或 telnet 來與 IRC 伺服器連線。
+這裡以 Weechat 為例，每個軟體的指令操作方式可能略有不同。
+在列表新增伺服器 /server add [server-name] [server-address]/[port] [(optional) -ssl] 設定使用者名稱、全名 /set irc.server.libera.username &amp;#34;My user name&amp;#34; /set irc.server.libera.realname &amp;#34;My real name&amp;#34; 設定自動登入 /set irc.server.libera.command &amp;#34;/msg nickserv identify xxxxxxx&amp;#34; 開始連線 /connect [server-name] 取消連線 /disconnect 登入與註冊伺服器 在剛進入一個伺服器時，和社群網站一樣你必須登入或註冊。
+登入 /msg NickServ identify [your-nick-name] [password] 註冊 /nick [your-nick] /msg NickServ register [your-password] [email] 使用伺服器 IRC 的使用概念 和 discord 的概念極其類似</description>
+    </item>
+    
+    <item>
+      <title>machine theories</title>
+      <link>http://wiki.ljcu.cc/site/machine-theories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.ljcu.cc/site/machine-theories/</guid>
+      <description>何謂機器？ 「&amp;ldquo;machine&amp;rdquo;, slang for computer or server」——— 維基百科
+機器在計算機領域中泛指電腦、計算機模型。只要能達成特定任務的「機構」或「系統」就可以是「機器」，或「電腦」。
+Abstract machine Virtual machine Paper computer 有限狀態機（FSM） // 撰文中</description>
+    </item>
+    
+    <item>
+      <title>machines &amp; computers</title>
+      <link>http://wiki.ljcu.cc/site/machine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.ljcu.cc/site/machine/</guid>
+      <description>Computer 是一種 Machine，而 Machine 又是由不同的「機構」所組成。其中的設計與巧思無形中構成了可運作的個體。 (計算機) (機器理論) (虛擬機) </description>
+    </item>
+    
+    <item>
+      <title>portfolio</title>
+      <link>http://wiki.ljcu.cc/site/portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.ljcu.cc/site/portfolio/</guid>
+      <description> 這個網站 （剛落成，新鮮喔） (入口名片網: ljcu.cc) (NoteMD) (Tagspace CLI) </description>
+    </item>
+    
+    <item>
+      <title>research</title>
+      <link>http://wiki.ljcu.cc/site/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.ljcu.cc/site/research/</guid>
+      <description>CSSC (Composible Suepr Simple Computer) [CSSC] 是一個目標以 74 系列設計一台計算機的專案。預計用簡單的架構和設計設計一台足以運作的計算機。</description>
+    </item>
+    
+    <item>
+      <title>softwares</title>
+      <link>http://wiki.ljcu.cc/site/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.ljcu.cc/site/software/</guid>
+      <description>(開發) 是 尋找開發的解決方案，軟體的開發不只在於解決問題，更是一種工藝、藝術。 // 文章撰寫中⋯⋯</description>
+    </item>
+    
+    <item>
+      <title>virtual machine</title>
+      <link>http://wiki.ljcu.cc/site/virtual-machine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wiki.ljcu.cc/site/virtual-machine/</guid>
+      <description>(brainfuck) (web assembly) (jvm) 程序不一定是電腦程序，也可以是一道手續或方法。machine也不一定要是實際存在的硬體，但需要明確的定義。而虛擬機的應用無處不在，而不同虛擬機的需求會因其而異。它，是一個模仿 machine 行為 的 程序。
+Computer model 定義了machine會如何執行其指令。因實作略可不同，以致Virtual machine 並沒有機制上明確的定義，實作上也無需考慮，盡情發揮創意是實作Virtual machine的樂趣。
+Uxn 是一個簡易、實驗性的VM。目的是為了讓VM能夠以簡易的設計，在不同的平台上容易實作和重做，實踐永續。始於藝術家 Devine Lu Linvega 用SD2和C開發，後續社群又開發了不同的variants。
+其簡易的設計和概念使Uxn與其他 program virtual machine 與眾不同。</description>
+    </item>
+    
+  </channel>
+</rss>
